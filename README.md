@@ -26,7 +26,7 @@ The directive accepts parameters
 	d3-format= "<d3 format>"  
 ```	
 ###Sample Usage
-...
+```
 <div id="d3bar" angulard3-bar-graph datajson="'sample.json'" 
 									xaxis-name = "'Year'" 
 									xaxis-pos = "905" 
@@ -34,9 +34,10 @@ The directive accepts parameters
 									yaxis-pos = "6" 
 									d3-format= "'.0%'"  >
 </div>
-...
-where 'sample.json' is of the form of an array of json objects
+```
 
+where 'sample.json' is of the form of an array of json objects
+```
 [
 {"letter":"2000","frequency":".08167"},
 {"letter":"2001","frequency":".01492"},
@@ -49,3 +50,4 @@ where 'sample.json' is of the form of an array of json objects
 {"letter":"2008","frequency":".06973"},
 {"letter":"2009","frequency":".00153"}
 ]
+```
