@@ -17,14 +17,14 @@ the directive is an attribute directive named
 	angulard3-bar-graph
 
 The directive accepts parameters
-
->	datajson="<json file>" 
->	xaxis-name = "<x-axis label>" 
->	xaxis-pos = "<x-axis label position in pxs" 
->	yaxis-name = "<y-axis label>" 
->	yaxis-pos = "<y-axis label position in pxs" 
->	d3-format= "<d3 format>"  
-	
+```	
+	datajson="<json file>" 
+	xaxis-name = "<x-axis label>" 
+	xaxis-pos = "<x-axis label position in pxs" 
+	yaxis-name = "<y-axis label>" 
+	yaxis-pos = "<y-axis label position in pxs" 
+	d3-format= "<d3 format>"  
+```	
 ###Sample Usage
 ...
 <div id="d3bar" angulard3-bar-graph datajson="'sample.json'" 
